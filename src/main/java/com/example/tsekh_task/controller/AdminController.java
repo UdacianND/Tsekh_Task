@@ -15,7 +15,7 @@ import javax.mail.AuthenticationFailedException;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("api")
+@RequestMapping("api/admin")
 public class AdminController {
     private final AdminService adminService;
 
